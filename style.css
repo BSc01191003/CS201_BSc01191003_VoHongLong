@@ -1,0 +1,283 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: green;
+  border-style: none;
+}
+
+.btn-primary:hover {
+  background-color: greenyellow;
+}
+
+.container-fluid {
+  display: flex;
+  padding: 0px;
+  justify-content: left;
+  padding: 0px 8%;
+}
+
+.container-fluid ul{
+  align-items: center;
+  display:flex;
+  padding: 0px 8%;
+  vertical-align:top;
+  list-style: none;
+}
+
+.container-fluid ul li {
+  padding-right: 20px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: cyan;
+}
+
+.navbar-collapse {
+  margin-right: 7rem;
+}
+
+.navbar-brand img {
+  height: 4rem;
+  margin-left: 6.6rem;
+  margin-top: -.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  padding-left: 3rem;
+}
+
+
+
+#slides {
+  height: 580px;
+}
+
+.carousel-inner .carousel-item img{
+  height: 580px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators .active {
+  background-color:cyan;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: grey;
+}
+
+.carousel-indicators li:hover {
+  cursor: pointer;
+}
+
+.carousel-caption {
+  left: 12%;
+  padding-right: 17%;
+  text-align: left;
+  top: 20%;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.carousel-caption .btn {
+  background-color: green;
+  border-radius: 0%;
+}
+
+.carousel-caption .blacktext {
+  color: black;
+}
+
+.carousel-caption .blacktext .display-4{
+  font-size: 130%;
+}
+
+.carousel-caption .blacktext .display-3{
+  font-size: 115%;
+}
+
+.carousel-caption .mainactive .display-4{
+  font-size: 220%;
+}
+
+.main h1{
+  color: cyan;
+}
+
+.shop {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main .container-fluid {
+  margin-top: 30px;
+}
+
+.main {
+  font-weight: lighter;
+}
+
+.main h1{
+  font-weight: lighter;
+}
+
+.card {
+  border-radius: 2%;
+  text-align: left;
+  -webkit-box-shadow: 0 0 4px grey;
+  box-shadow: 0 0 4px grey;
+  padding: 12%;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 12px grey;
+  box-shadow: 0 0 12px grey;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+}
+
+.service {
+  background-color: cyan;
+  text-align: center;
+  padding: 2rem;
+}
+
+.info {
+  margin-top: 50px;
+  padding-top: 55px;
+}
+
+.info .row {
+  width: 100%;
+}
+
+.info ul {
+  display: block;
+  padding: 0px;
+}
+
+.info ul li{
+  list-style: none;
+}
+
+.info ul li a {
+  color:black;
+}
+
+.info h4 {
+  color: white;
+}
+
+.info img {
+  width: 10%;
+  padding: 3px;
+}
+
+.info .container-fluid {
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.contact .container-fluid{
+  padding-bottom: 4%;
+  padding-top: 3%;
+}
+
+.info .signup {
+  display: flex;
+  padding: 0% 12%;
+  height: 100%;
+}
+
+.info .btn {
+  border-radius: 0%;
+  padding: 0px 20px;
+}
+
+
+.info hr {
+  border-color: white;
+}
+
+.signup h2 {
+  margin: 0px 6%;
+  font-size: 125%;
+  padding: 2% 0px;
+  color: white;
+  font-weight: lighter;
+}
+
+.media {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .container-fluid {
+  background-color:cyan;
+}
+
+footer .end .container-fluid{
+  background-color: white;
+}
+
+footer .container {
+  margin-top: 1rem;
+}
+
+footer .row .co1 {
+
+	text-align: left;
+}
+footer .row .co2 p{
+
+	text-align: center;
+}
+
+footer .row .co3 {
+  text-align: right;
+}
+
+
