@@ -80,11 +80,11 @@ html, body {
 
 
 #slides {
-  height: 580px;
+  height: 700px;
 }
 
 .carousel-inner .carousel-item img{
-  height: 580px;
+  height: 700px;
   width: 100%;
   object-fit: cover;
 }
@@ -104,36 +104,48 @@ html, body {
   cursor: pointer;
 }
 
-.carousel-caption {
+.cornerleft{
   left: 12%;
   padding-right: 17%;
   text-align: left;
-  top: 20%;
+  top: 17%;
   align-items: center;
   width: 50%;
   height: 100%;
 }
 
-.carousel-caption .btn {
-  background-color: green;
-  border-radius: 0%;
-}
-
-.carousel-caption .blacktext {
+.leftside {
+  left: 12%;
+  padding-right: 17%;
+  text-align: left;
+  top: 30%;
+  align-items: center;
+  width: 50%;
+  height: 100%;
   color: black;
 }
 
-.carousel-caption .blacktext .display-4{
-  font-size: 130%;
+.rightside {
+  left: 40%;
+  padding-left: 17%;
+  text-align: left;
+  top: 30%;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  color: black;
+  color: white;
 }
 
-.carousel-caption .blacktext .display-3{
-  font-size: 115%;
+.carousel-caption .btn {
+  background-color:black;
+  border-radius: 0%;
 }
 
-.carousel-caption .mainactive .display-4{
-  font-size: 220%;
+.btn:hover {
+  background-color: grey;
 }
+
 
 .main h1{
   color: cyan;
@@ -162,6 +174,7 @@ html, body {
   -webkit-box-shadow: 0 0 4px grey;
   box-shadow: 0 0 4px grey;
   padding: 12%;
+  text-align: center;
 }
 
 .card:hover {
